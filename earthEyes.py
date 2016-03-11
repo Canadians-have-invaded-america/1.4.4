@@ -15,7 +15,7 @@ student_file = os.path.join(directory, 'student.jpg')
 student_img = PIL.Image.open(student_file)
 fig, axes = plt.subplots(1, 2)
 axes[0].imshow(student_img, interpolation='none')
-
+'''this is a comment'''
 # Display student in second axes and set window to the right eye
 axes[1].imshow(student_img, interpolation='none')
 axes[1].set_xticks(range(1050, 1410, 100))
